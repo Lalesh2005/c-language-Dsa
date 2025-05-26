@@ -1,0 +1,42 @@
+my name is lalesh kumar raj.
+i am bihar.
+school name is svm.new content
+
+Practice exam paper Major.
+1.design an algorithm to check that a given number is even or odd.
+Answer:-Step-by-Step Algorithm:
+	1.	Start
+	2.	Input: Read a number n.
+	3.	Process: Check the remainder when the number is divided by 2:
+	•	If n % 2 == 0:
+	•	Print “The number is even”.
+	•	Else:
+	•	Print “The number is odd”.
+	4.	End
+
+5.Discuss the models of  file handling in c language.
+1. Sequential Access Model:
+
+Definition:
+	•	In the Sequential Access Model, data is accessed in a linear order from the beginning to the end of the file.
+	•	Common for text files where data is read or written from start to finish.
+
+Operations:
+	•	Reading (fscanf, fgets, getc)
+	•	Writing (fprintf, fputs, putc)
+	•	Files are read from the start to the end without random access.
+Definition:
+	•	In the Random Access Model, data can be read or written at any position in the file.
+	•	Common for binary files and database systems where direct access to any byte or record is needed.
+
+Operations:
+	•	fseek() → Moves the file pointer to a specific location.
+	•	ftell() → Returns the current position of the file pointer.
+	•	rewind() → Moves the file pointer back to the beginning.
+Mode	Description
+"r"	Open for reading (file must exist).
+"w"	Open for writing (creates or overwrites the file).
+"a"	Open for appending (writes to the end of the file).
+"r+"	Open for both reading and writing.
+"w+"	Open for both writing and reading (clears the file).
+"a+"	Open for both appending and reading.
